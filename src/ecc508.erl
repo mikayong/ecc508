@@ -58,7 +58,7 @@
 %% address and default max count.
 - spec start_link() -> {ok, pid()} | {error, term()}.
 start_link() ->
-    start_link("i2c-1").
+    start_link("i2c-0").
 
 %% @doc Start and link the ecc process with a given devname i2c bus, the
 %% default address and the default max count.
